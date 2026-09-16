@@ -1,0 +1,19 @@
+[project]
+name = "ai-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "NathanB512", email = "nathan.brown909@outlook.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ollama>=0.6.2",
+]
+
+[project.scripts]
+ai-agent = "ai_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
