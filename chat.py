@@ -9,7 +9,7 @@ response = chat(
         {"role": "system", "content": "You are a helpful assistant."},
         # The user represents the person asking a question
         {"role": "user", "content": "What is the capital of France?"}
-    ]
+    ],
 )
 
 print(response.message.content)
